@@ -5,7 +5,7 @@
 }
 /* основные компоненты*/
 body {
-  /*  background-color: rgba(0, 0, 0, 0.26);*/
+  /*  Засветление фона */
   background-image: linear-gradient(rgba(255, 255, 255, 0.91), rgba(255, 248, 219, 0.85)), url(../images/student.jpg);
   background-size: cover;
   background-attachment: fixed;
@@ -14,11 +14,11 @@ body {
     justify-content: space-between;
     
     
-    
+    /*Тень текста*/
     padding: 1rem 2rem;
-    text-shadow: 5px 5px 3px #369;
+    text-shadow: 5px 5px 3px #a1a1a1;
     font-family: 'Kelly Slab', cursive;
-   
+
 
 }
 
@@ -44,6 +44,7 @@ a {
 }
 
 button {
+
     margin: 1rem 1rem 1rem 0;
     padding: 1rem 2rem;
     background-color: rgb(202, 144, 144);
@@ -73,7 +74,7 @@ table {
 }
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 
@@ -83,9 +84,9 @@ table {
 
 .navigation {
     flex-grow: 1;
-    margin-top: 5rem;
-    margin-left: 3rem;
-    align-self: flex-start;
+    text-align: center;
+    margin-top: 30px;
+
 }
 .navigation-item {
     margin-left: 0.5rem;
@@ -100,6 +101,7 @@ table {
 .logout {
     flex-grow: 1;
     text-align: center;
+    margin-top: 30px;
     
 }
 
