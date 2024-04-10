@@ -6,7 +6,7 @@
 /* основные компоненты*/
 body {
   /*  background-color: rgba(0, 0, 0, 0.26);*/
-  background-image: linear-gradient(#d1cccce7, #523131d8), url(../images/student.jpg);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.91), rgba(255, 248, 219, 0.85)), url(../images/student.jpg);
   background-size: cover;
   background-attachment: fixed;
   height: 100vh;
@@ -98,7 +98,7 @@ table {
 
 /*правая боковая панель*/
 .logout {
-    flex-grow: 1; 
+    flex-grow: 1;
     text-align: center;
     
 }

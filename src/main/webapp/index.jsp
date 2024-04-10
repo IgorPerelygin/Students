@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap" rel="stylesheet">
 
-    <title>Title</title>
+    <title>Учёт студентов</title>
 </head>
 <body>
 <aside class="navigation">
@@ -20,13 +20,13 @@
 </aside>
 
 <main class="main">
-    <h1 class="main-heading"> система управления студентами и их успеваемостью
+    <h1 class="main-heading"> Система управления студентами и их успеваемостью
 
     </h1>
     <div class="container">
         <a href="/students" class="title-btn">студенты</a>
         <a href="/disceplines" class="title-btn">дисциплины</a>
-        <a href="/semestrs" class="title-btn">семестры</a>
+        <a href="/te" class="title-btn">семестры</a>
     </div>
 
 </main>
